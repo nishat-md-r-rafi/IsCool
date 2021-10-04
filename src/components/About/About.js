@@ -32,7 +32,14 @@ function About(props) {
         </Row>
       </Container>
       <Container>
-        <h4 style={{ borderRadius: "20px", margin: "0px 20px" }}>
+        <h4
+          style={{
+            backgroundColor: "lightpink",
+            padding: "10px",
+            borderRadius: "10px",
+            margin: "10px 0px",
+          }}
+        >
           Student Feedback
         </h4>
         <Row
