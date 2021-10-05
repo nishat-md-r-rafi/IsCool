@@ -5,7 +5,14 @@ function Blogs(props) {
   return (
     <div>
       <Container>
-        <h4 style={{ borderRadius: "20px", margin: "0px 20px" }}>
+        <h4
+          style={{
+            borderRadius: "20px",
+            margin: "30px 20px",
+            backgroundColor: "lightgray",
+            padding: "10px",
+          }}
+        >
           Read Some Blogs to feel free!
         </h4>
         <Row>

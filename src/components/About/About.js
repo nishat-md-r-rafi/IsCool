@@ -34,10 +34,10 @@ function About(props) {
       <Container>
         <h4
           style={{
-            backgroundColor: "lightpink",
+            backgroundColor: "lightgrey",
             padding: "10px",
             borderRadius: "10px",
-            margin: "10px 0px",
+            margin: "50px 0px 5px 0px",
           }}
         >
           Student Feedback
@@ -69,7 +69,14 @@ function About(props) {
         </Row>
       </Container>
       <Container>
-        <h4 style={{ borderRadius: "20px", margin: "0px 20px" }}>
+        <h4
+          style={{
+            backgroundColor: "lightgrey",
+            padding: "10px",
+            borderRadius: "10px",
+            margin: "50px 0px 5px 0px",
+          }}
+        >
           Our Partners
         </h4>
         <Row>

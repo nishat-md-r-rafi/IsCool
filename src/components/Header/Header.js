@@ -7,8 +7,17 @@ import {
   Button,
   FormControl,
 } from "react-bootstrap";
-
+import { Link, Switch } from "react-router-dom";
 import React from "react";
+
+const linkStyle = {
+  textDecoration: "none",
+  padding: "10px",
+  backgroundColor: "lightblue",
+  marginRight: "7px",
+  borderRadius: "10px",
+  onMouseOver: "backgroundC",
+};
 
 function Header(props) {
   return (
@@ -23,10 +32,18 @@ function Header(props) {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="/home">Home</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/serve">Service</Nav.Link>
-              <Nav.Link href="/blogs">Blogs</Nav.Link>
+              <Link style={linkStyle} to="/home">
+                Home
+              </Link>
+              <Link style={linkStyle} to="/about">
+                About
+              </Link>
+              <Link style={linkStyle} to="/serve">
+                Service
+              </Link>
+              <Link style={linkStyle} to="/blogs">
+                Blogs
+              </Link>
               <NavDropdown title="Categories" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#action3">Health</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">Development</NavDropdown.Item>

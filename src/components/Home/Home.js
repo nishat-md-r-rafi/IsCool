@@ -52,10 +52,11 @@ function Home(props) {
       <Container>
         <h2
           style={{
-            backgroundColor: "lightpink",
+            backgroundColor: "black",
             padding: "10px",
             borderRadius: "10px",
             margin: "10px 0px",
+            color: "white",
           }}
         >
           Popular Courses

@@ -8,6 +8,9 @@ import Header from "./components/Header/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FooterPage from "./components/Footer/Footer";
 import Blogs from "./components/Blogs/Blogs";
+import Footer from "rc-footer";
+import Footer2 from "./components/Footer/Footer2";
+import Footer3 from "./components/Footer/Footer3";
 function App() {
   return (
     <div className="App">
@@ -15,7 +18,7 @@ function App() {
         <Header></Header>
         <Switch>
           <Route exact path="/">
-            <About></About>
+            <Home></Home>
           </Route>
           <Route path="/about">
             <About></About>
@@ -33,7 +36,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
-        <FooterPage></FooterPage>
+        <Footer3></Footer3>
       </Router>
     </div>
   );
